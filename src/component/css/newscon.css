@@ -1,0 +1,14 @@
+/* news-card-container */
+.news-card-container {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.viewmore {
+  text-align: center;
+  font-size: large;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* news-card-container */

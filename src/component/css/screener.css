@@ -1,0 +1,10 @@
+#mySelect {
+  padding: 0.5rem 1rem;
+  display: flex;
+  width: 30%;
+  outline: none;
+  margin: 2rem 0;
+}
+#mySelect option {
+  padding: 0.5rem 0;
+}

@@ -1,0 +1,106 @@
+/* Navigation bar */
+.header {
+  width: 100vw;
+  height: 100%;
+}
+.logo a {
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: bold;
+}
+.navbar {
+  height: 11vh;
+  display: flex;
+  align-items: center;
+}
+#nav-links {
+  display: flex;
+}
+nav {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 9vh;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 0 5px 0 rgb(158, 158, 158);
+  background: white;
+  z-index: 2;
+}
+nav a {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  padding: 15px 23px;
+  color: #303030;
+  font-size: 1.1rem;
+}
+nav a:hover {
+  font-weight: bolder;
+  transition: 0.3s;
+}
+.signin {
+  position: absolute;
+  right: 25px;
+}
+.signin input {
+  outline: none;
+  border: 1px solid black;
+  padding: 8px 10px;
+  border-radius: 50px;
+  width: 20vw;
+}
+#nav-menu {
+  background: none;
+  border: none;
+  position: absolute;
+  right: 20px;
+}
+#nav-menu img {
+  width: 35px;
+  display: none;
+}
+.nav-img {
+  width: 2rem;
+}
+/* Navigation bar */
+
+/* switch */
+.pallete {
+  width: 4rem;
+  height: 2rem;
+  background-color: antiquewhite;
+  border-radius: 100px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 10px 0 rgb(156, 156, 156);
+}
+.dark .pallete {
+  background-color: #070f2b;
+  box-shadow: 0 0 7px 0 black;
+}
+.dark .switch {
+  background-color: #1b1a55;
+  box-shadow: 0 0 5px 0 black;
+}
+.dark .icon {
+  color: white;
+}
+.icon {
+  padding: 0 0.5rem;
+}
+
+.switch {
+  height: 100%;
+  width: 50%;
+  background-color: white;
+  position: absolute;
+  border-radius: 100px;
+  box-shadow: 0 0 5px 0 rgb(156, 156, 156);
+  right: 0;
+  transition: left 0.3s ease-in;
+}
+/* switch */

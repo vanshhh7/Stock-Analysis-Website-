@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Source Sans Pro", sans-serif;
+  text-align: justify;
+}
+.mycontainer {
+  margin-top: 5rem;
+  width: 98vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main {
+  width: 85vw;
+}
+.main-head {
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  margin: 40px 0;
+}
+.dark {
+  background-color: #070f2b;
+  color: white;
+}
+.dark nav {
+  background-color: #1b1a55;
+  box-shadow: 0 0 5px 0 black;
+  color: white;
+}
+.dark nav a {
+  color: white;
+}
+
+.dark .carousel-card {
+  background-color: #1b1a55;
+  box-shadow: 0 0 10px 0 black;
+}
+.dark .carousel-main {
+  color: white;
+}
+.dark .carousel-card .carousel-main p {
+  color: white;
+}
+.dark .news-con {
+  background-color: #1b1a55;
+  box-shadow: 0 0 7px 0 black;
+}
+.dark .card-news-main h3 {
+  color: white;
+}
+.dark .card-news-main p {
+  color: white;
+}
+.dark .foot-news {
+  background-color: #1b1a55;
+}
+.dark .sector {
+  scrollbar-color: #1b1a55 #070f2b;
+}
+.dark .sec {
+  background-color: #535c91;
+}
+.dark .sec a {
+  color: white;
+}

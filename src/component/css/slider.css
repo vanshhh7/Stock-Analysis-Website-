@@ -1,0 +1,24 @@
+.carousel-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  padding-right: 1rem;
+}
+.carousel-news-img img {
+  width: 30vw;
+  height: 46vh;
+  margin-right: 40px;
+  border-radius: 5px;
+}
+.carousel-card .carousel-main p {
+  font-size: 18px;
+  color: rgb(70, 70, 70);
+}
+.carousel-card .carousel-main h3 {
+  font-size: 35px;
+  font-weight: bold;
+}
+.carousel-main {
+  color: black;
+}
